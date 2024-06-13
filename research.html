@@ -1,0 +1,167 @@
+<html>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="keywords" content="Jonte Goedicke, Math, Uni Hamburg, Toplogical Field Theory, Higher Segal">
+
+<meta name="author" content="Jonte Goedicke">
+
+<meta name="description" content="This is the personal webpage of the mathematician Jonte Goedicke. 
+It contains informations about him, his research and his teaching activities.">
+
+<link rel="stylesheet" href="/w3css/3/w3.css">
+
+ <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+
+<script src="https://kit.fontawesome.com/057a2b03bf.js" crossorigin="anonymous"></script>
+
+<style>
+
+.footer {
+  padding: 20px; /* Some padding */
+  text-align: left; /* Center text*/
+  background: #274c43;
+  color:white;
+}
+
+
+header {
+  background-color: #274c43;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+
+.img-container {
+  float: right;
+  width: 40.0%;
+  padding-top: 50px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  text-aling: right;
+}
+
+.text-container {
+  float: left;
+  width: 60.0%;
+  padding: 50px;
+text-align: center;
+}
+
+
+
+</style>
+
+<body>
+
+
+
+<nav class="w3-bar w3-black">
+
+  <a href="webpage.html" class="w3-button w3-bar-item">Home</a>
+
+  <a href="research.html" class="w3-button w3-bar-item">Research</a>
+
+  <a href="#publications" class="w3-button w3-bar-item">Publications</a>
+
+  <a href="#teaching" class="w3-button w3-bar-item">Teaching</a>
+
+</nav>
+
+
+
+
+<div class="row">
+
+ <div class="text-container">
+	<h2 class="w3-wide" style="text-align:center">Research</h2>
+
+  <p class="w3-opacity" style="text-align:center"><i>If we knew what we were doing, it would not be called research, would it?<br>
+
+	- Albert Einstein- </i></p>
+
+  <p style="text-align:justify">
+	My research focuses on the relationship between <a href="https://arxiv.org/abs/1212.3563" target="_blank">Higher Segal objects</a>, 
+	<a href="https://arxiv.org/abs/2301.02606" target="_blank">categorified homological algebra</a> and Topological Field Theories (TFTs). 
+	Recently, I have been working on a specific class of TFTs known as derived Turaev-Viro (TV) theories. These theories are higher categorical generalisations of 	<a href="https://arxiv.org/abs/1312.7188" target=_blank">classical TV theories</a>, using as their input a higher monoidal category, such as the derived 	category of a 	tensor category	Specifically, I have studied convolution monoidal structures that arise from Higher Segal objects.
+ </p>
+ </div>
+
+ <div class="img-container">
+  <img class="mySlides" src="BordismW.JPG" style="width:400px;height:290px;">
+  <img class="mySlides" src="Ising.JPG" style="width:400px;height:290px;">
+ </div>
+</div>
+
+
+
+
+<script>
+var myIndex = 0;
+caroussel();
+function caroussel() {
+var i;
+var x = document.getElementsByClassName("mySlides");
+for(i=0; i< x.length; i++){
+x[i].style.display = "none";
+}
+
+myIndex++;
+if (myIndex> x.length) {myIndex=1}
+x[myIndex-1].style.display="block";
+setTimeout(caroussel, 3000);
+}
+</script>
+
+<hr style="height:2px;border-width:0;color:gray;background-color:#274c43;">
+
+<div class="row">
+
+ <div class="text-container">
+	<h2 class="w3-wide" style="text-align:center">(A) Higher Segal Spaces</h2>
+
+
+
+  <p style="text-align:justify">
+	My research focuses on the relationship between <a href="https://arxiv.org/abs/1212.3563" target="_blank">Higher Segal objects</a>, 
+	<a href="https://arxiv.org/abs/2301.02606" target="_blank">categorified homological algebra</a> and Topological Field Theories (TFTs). 
+	Recently, I have been working on a specific class of TFTs known as derived Turaev-Viro (TV) theories. These theories are higher categorical generalisations of 	<a href="https://arxiv.org/abs/1312.7188" target=_blank">classical TV theories</a>, using as their input a higher monoidal category, such as the derived 	category of a 	tensor category	Specifically, I have studied convolution monoidal structures that arise from Higher Segal objects.
+ </p>
+ </div>
+
+ <div class="img-container">
+ <img  src="2-Segal.JPG" style="width:400px;height:250px;">
+ </div>
+</div>
+
+
+
+<div class="footer">
+Jonte G&oumldicke <br>
+Office 335 <br>
+Bundeststraße 55 (Geomatikum) <br>
+20146 Hamburg <br> 
+Office number: <a href="tel:+4940428385189">+49 404 2838-5189</a> 
+</div>
+
+
+</body>
+</html>
+
+
+
