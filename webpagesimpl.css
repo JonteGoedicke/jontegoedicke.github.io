@@ -1,0 +1,189 @@
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body{
+margin:0px;
+ overflow:hidden;
+height:840px;
+}
+
+li {
+line-height:120%;
+}
+
+p {
+line-height:140%;
+}
+
+.row {
+  display: flex;
+  height:100%;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+overflow:auto;
+  flex: 80%;
+}
+
+.side {
+  flex: 20%;
+  text-align: center;
+}
+
+.side img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+   border-color: #E48F45;
+   margin-top:200px;
+
+}
+
+.side a {
+block-size:20px;
+display: block;
+  color: black;
+  text-decoration: none;
+ font-size:1.5vw;
+ padding-bottom:5px;
+ padding-top:5px;
+color:white;
+}
+
+.side a[target="_blank"] {
+  display: inline;
+  color: black;
+  text-decoration: none;
+  padding-left:0;
+ font-size:1.5vw;
+padding-bottom: 0px;
+}
+ 
+.side a.active {
+  color: #45A29E;
+}
+
+.side a:hover:not(.active) {
+  background-color: #B3B4BD;
+  color: black;
+}
+
+.side h2{
+color:#FCDC94;
+padding-top:20px;
+text-align:left;
+margin-left:20px;
+
+}
+
+.side li{
+color:white;
+text-align: left;
+font-size:20px;
+margin-bottom:10px;
+}
+
+
+.slide {
+  flex: 80%;
+  padding-left: 30px;
+  background-color:white;
+  margin-top:230px;
+border-bottom: 1px solid grey;
+padding-bottom: 300px;
+}
+
+.slide h1{
+display: inline;
+font-size:60px;
+}
+
+.slide h2{
+margin-top:0px;
+font-size: 25px;
+margin-bottom:50px;
+}
+
+.slide a{
+opacity: 100%;
+color:black;
+text-decoration: none;
+}
+
+.slide p{
+font-size:20px;
+}
+
+
+.slide2{
+  flex: 80%;
+  padding-left: 30px;
+  background-color:white;
+  margin-top:70px;
+border-bottom: 1px solid grey;
+padding-bottom: 100px;
+}
+
+.slide2 h1{
+display: inline;
+font-size:40px;
+}
+
+.slide2 p{
+font-size:20px;
+margin-top:30px;
+}
+
+.slide2 h2{
+font-size:30px;
+margin-top:50px;
+color:#E48F45;
+}
+
+.slide2 ol{
+padding-left:20px;
+font-size:20px;
+}
+
+p.abstract {
+margin-top:20px;
+}
+
+ul.teaching{
+font-size:20px;
+margin-left:0px;
+padding-left:5px;
+}
+
+.teaching li{
+margin-bottom:15px
+}
+
+i {
+padding-right:10px;
+}
+
+.footer {
+background-color:#E48F45 ;
+height:130px;
+margin:0px;
+padding:0px;
+color:white;
+text-align:left;
+}
+
+.footer a{
+color:white;
+text-decoration:none;
+}
+.footer ul{
+padding:20px;
+}
+</style>
+</head>
